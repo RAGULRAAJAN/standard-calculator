@@ -157,6 +157,7 @@ function calculate() {
     document.getElementById("result").value = q;
 }
 ## OUTPUT:
+![Screenshot from 2023-12-19 01-23-27](https://github.com/RAGULRAAJAN/standard-calculator/assets/147473144/d4e2bfce-eb3d-476f-aa80-f7b93536ae12)
 
 ## Result:
-
+Thus the program has been executed successfully.

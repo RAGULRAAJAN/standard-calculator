@@ -26,7 +26,8 @@ Publish the website in the given URL.
 
 ## PROGRAM :
   ### CSS:#style.css:
-      *{
+     ```
+     *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -81,9 +82,10 @@ form input.equal{
 form input.operator{
     color: #33ffd8;
 }
-
- ### calc.html:
-    *{
+```
+### calc.html:
+ ```
+  *{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -138,9 +140,9 @@ form input.equal{
 form input.operator{
   color: #33ffd8;
 }
-
+```
 ### index.js:
-   // This function clear all the values
+  ```js // This function clear all the values
 function clearScreen() {
     document.getElementById("result").value = "";
 }
@@ -156,6 +158,8 @@ function calculate() {
     var q = eval(p);
     document.getElementById("result").value = q;
 }
+```
+
 ## OUTPUT:
 ![Screenshot from 2023-12-19 01-23-27](https://github.com/RAGULRAAJAN/standard-calculator/assets/147473144/d4e2bfce-eb3d-476f-aa80-f7b93536ae12)
 

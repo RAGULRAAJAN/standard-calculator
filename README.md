@@ -25,8 +25,8 @@ Validate the HTML and CSS code.
 Publish the website in the given URL. 
 
 ## PROGRAM :
-  ### CSS:#style.css:
-     ```
+ ### CSS:#style.css:
+   ```
      *{
     margin: 0;
     padding: 0;
@@ -83,8 +83,8 @@ form input.operator{
     color: #33ffd8;
 }
 ```
-### calc.html:
- ```
+ ### calc.html:
+ ```html
   *{
   margin: 0;
   padding: 0;
@@ -159,6 +159,7 @@ function calculate() {
     document.getElementById("result").value = q;
 }
 ```
+
 
 ## OUTPUT:
 ![Screenshot from 2023-12-19 01-23-27](https://github.com/RAGULRAAJAN/standard-calculator/assets/147473144/d4e2bfce-eb3d-476f-aa80-f7b93536ae12)
